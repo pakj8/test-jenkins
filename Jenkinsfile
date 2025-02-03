@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-repo/fastapi-scraper.git'
+                git 'https://github.com/pakj8/test-jenkins.git'
             }
         }
         stage('Build Docker Image') {
